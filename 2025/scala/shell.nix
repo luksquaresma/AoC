@@ -16,6 +16,7 @@ pkgs.mkShell rec {
   pname = name;
 
   buildInputs = with unstable; [
+    vscode
     exercism
     claude-code
     gemini-cli

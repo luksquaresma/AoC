@@ -1,7 +1,7 @@
 import scala.io.Source
 import scala.util.{Try, Success, Failure}
 
-val inputFilePath: String = "./test_input"
+val inputFilePath: String = "./day_1/input"
 val startingPosition: Int = 50
 val validInputDirections: Set[String] = Set("L", "l", "R", "r")
 
