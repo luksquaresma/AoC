@@ -19,6 +19,7 @@ pkgs.mkShell rec {
     vscode
     exercism
     claude-code
+    git
     gemini-cli
     scala
     scalafmt
