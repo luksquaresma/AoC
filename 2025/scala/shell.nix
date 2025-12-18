@@ -16,6 +16,7 @@ pkgs.mkShell rec {
   pname = name;
 
   buildInputs = with unstable; [
+    lazygit
     vscode
     exercism
     claude-code
