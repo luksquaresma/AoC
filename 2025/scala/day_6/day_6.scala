@@ -37,7 +37,7 @@ def getFileOperations(src_path: String): List[Operation] = {
 def calculateOperation(op: Operation): Long = op(0) match {
   case "+" => op(1).sum
   case "*" => op(1).product
-  case _ => throw new IllegalArgumentException(s"Invalid operation type: ${op(0)}")
+  case _   => throw new IllegalArgumentException(s"Invalid operation type: ${op(0)}")
 }
 
 @main
