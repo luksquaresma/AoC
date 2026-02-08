@@ -25,6 +25,7 @@ pkgs.mkShell rec {
     scala
     scalafmt
     scalafix
+    tree
   ];
 
   shellHook = ''
